@@ -1,0 +1,9 @@
+команды:
+pip install pyinstaller
+
+
+pyinstaller --onefile --windowed my_program.py
+--onefile: создаст один исполняемый файл.
+--windowed: запретит открытие консольного окна (для графических приложений).
+
+в папке dist появится файл *file_name*.exe
